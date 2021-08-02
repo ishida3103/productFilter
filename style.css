@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F1E6E4;
+}
+
+.filterBar{
+    background-color: #ffdbcb;
+    width: 650px;
+    height: 80px;
+    margin: 100px auto 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+.prodContainer{
+    background-color: white;
+    width: 650px;
+    height: 100%;
+    margin: 20px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius: 10px;
+}
+
+.cardProd{
+    background-color: #ffd6b2;
+    margin-bottom: 15px;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+    color: rgb(88, 88, 88);
+    border-radius: 10px;
+}
+
+#orderSel, #typeSel{
+    width: 200px;
+    height: 40px;
+    border: 1px solid rgb(248, 248, 248);
+    background-color: rgb(248, 248, 248);
+    font-weight: 500;
+    font-size: 1rem;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#btnApply{
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 1.2rem;
+}

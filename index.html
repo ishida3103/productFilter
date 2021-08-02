@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Filter Product</title>
+        <meta charset="UTF-8"/>
+        <link rel = "stylesheet" href = "style.css"/>
+    </head>
+    <body>
+        <div class="filterBar">
+            <select id = "orderSel">
+                <option value = '0'>Sort by</option>
+                <option value = 'nameAZ'>Alfabética A-Z</option>
+                <option value = 'nameZA'>Alfabética Z-A</option>
+                <option value = 'lowPrice'>Menor preço</option>
+                <option value = 'highPrice'>Maior preço</option>
+            </select>
+
+            <select id = "typeSel">
+                <option value = '0'>Type</option>
+                <option value = 'headset'>Headset</option>
+                <option value = 'processador'>Processador</option>
+                <option value = 'notebook'>Notebook</option>
+            </select>
+
+            <button id = "btnApply">Apply</button>
+        </div>
+
+        <div class="prodContainer">
+
+        </div>
+        <script src = "app.js"></script>
+    </body>
+</html>
